@@ -4,7 +4,7 @@ config = {
     'user': 'root',
     'password': '',
     'host': 'localhost',
-    'database': 'studentdb'
+    'database': 'acme'
 }
 
 db = mysql.connector.connect(**config)
